@@ -6,7 +6,7 @@ public class NumberGuessingGame {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
-
+        System.out.print("WELCOME TO NUMBER GUESSING GAME :-DEVELOPED BY=ANSH DHINGRA  ");
         System.out.print("Enter the maximum number for the range: ");
         int maxNumber = scanner.nextInt();
 
